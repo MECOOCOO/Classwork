@@ -33,7 +33,7 @@ elif letter == "o":
 elif letter == "u":
   print ("This letter is a vowel.")
 elif letter == "y":
-  print ("This letter is a vowel sometimes, and sometimes a consonant.")
+  print ("This letter is sometimes a vowel, and sometimes a consonant.")
 else:
  print ("This letter is a consonant.")
 
