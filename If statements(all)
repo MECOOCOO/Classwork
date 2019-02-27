@@ -1,0 +1,90 @@
+#34
+
+print("Please input your integer")
+x = int(input())
+if  x % 2 == 0: 
+  print("This number is even.") 
+else:
+  print("This number is odd.")
+
+#35
+
+print ("Please enter your dog's age.")
+age = float(input())
+if 0<age<=2:
+  print (age*10.5)
+elif age<0:
+  print ("That is not possible, please try again.")
+else:
+  print (2*10.5+(age-2)*4) 
+
+#36
+
+print ("Please enter the letter.")
+letter = input()
+if letter == "a":
+  print ("This letter is a vowel.")
+elif letter == "e":
+  print ("This letter is a vowel.")
+elif letter == "i":
+  print ("This letter is a vowel.")
+elif letter == "o":
+  print ("This letter is a vowel.")
+elif letter == "u":
+  print ("This letter is a vowel.")
+elif letter == "y":
+  print ("This letter is a vowel sometimes, and sometimes a consonant.")
+else:
+ print ("This letter is a consonant.")
+
+#37
+
+print ("Please determine the number of sides.")
+sides = int(input())
+if sides == 3:
+  print ("This is a triangle.")
+elif sides == 4:
+  print ("This is a square.")
+elif sides == 5:
+  print ("This is a pentagon.")
+elif sides == 6: 
+  print ("This is a hexagon.")
+elif sides == 7:
+  print ("This is a heptagon.")
+elif sides == 8:
+  print ("This is a octagon.")
+elif sides == 9:
+  print ("This is a nonagon.")
+elif sides == 10:
+  print ("This is a decagon.")
+else:
+  print ("There is an error.")
+
+#48
+
+print ("Please enter the year you are looking for.")
+year = int(input())
+if year%2000%12 == 0:
+  print ("This is the year of the dragon.")
+if year%2000%12 == 1:
+  print ("This is the year of the snake.")
+if year%2000%12 == 2:
+  print ("This is the year of the horse.")
+if year%2000%12 == 3:
+  print ("This is the year of the sheep.")
+if year%2000%12 == 4:
+  print ("This is the year of the monkey.")
+if year%2000%12 == 5:
+  print ("This is the year of the rooster.")
+if year%2000%12 == 6:
+  print ("This is the year of the dog.")
+if year%2000%12 == 7:
+  print ("This is the year of the pig.")
+if year%2000%12 == 8:
+  print ("This is the year of the rat.")
+if year%2000%12 == 9:
+  print ("This is the year of the ox.")
+if year%2000%12 == 10:
+  print ("This is the year of the tiger.")
+if year%2000%12 == 11:
+  print ("This is the year of the hare.")
