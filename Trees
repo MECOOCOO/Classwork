@@ -1,0 +1,21 @@
+import arcade
+Width = 640
+Length = 480
+x = 100
+y = 100
+
+
+def draw_pine_tree(x, y):
+    bottom = y + 50
+    arcade.draw_rectangle_filled(x, y, x - 25, y + 25, arcade.color.DARK_BROWN)
+    arcade.draw_triangle_filled(x + 50, bottom, x - 50, bottom, x, bottom + 100, arcade.color.DARK_GREEN)
+
+
+arcade.open_window(Width, Length, "My Tree")
+arcade.set_background_color(arcade.color.WHITE)
+arcade.start_render()
+for x in range(45, Width, 100):
+    draw_pine_tree(x, (Length / 3) - 80)
+arcade.finish_render()
+arcade.run()
+
